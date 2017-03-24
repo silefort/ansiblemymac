@@ -1,0 +1,61 @@
+---
+downloads: ~/.ansible-downloads/
+
+# dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+# dotfiles_repo_accept_hostkey: yes
+# dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+# dotfiles_files:
+#   - .bash_profile
+#   - .gitconfig
+#   - .gitignore
+#   - .inputrc
+#   - .osx
+#   - .vimrc
+
+homebrew_installed_packages:
+  - dockutil
+  - git
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - dropbox
+  - google-chrome
+  - google-drive
+  - iterm2
+  - keepassx
+  - shiftit
+  - slack
+  - spotify
+  - docker
+  - firefox
+  - vagrant
+  - virtualbox
+
+dockitems_to_remove:
+  - Mail
+  - Contacts
+  - Calendrier
+  - Notes
+  - Rappels
+  - Plans
+  - Photos
+  - Messages
+  - FaceTime
+  - iBooks
+
+dockitems_to_persist:
+  - name: KeePassX
+    path: "/Applications/KeePassX.app"
+    pos: 1
+
+  - name: Microsoft Outlook
+    path: "/Applications/Microsoft Outlook.app"
+    pos: 2
+
+  - name: Safari
+    path: "/Applications/Safari.app"
+    pos: 3
+
+  - name: Slack
+    path: "/Applications/Slack.app"
+    pos: 4

@@ -1,0 +1,12 @@
+---
+# TODO: Use sudo once .osx can be run via root with no user interaction.
+#  - name: Run .osx dotfiles.
+#    shell: ~/.osx --no-restart
+#    changed_when: false
+
+# Set keyboard rate to maximum speed
+  - name: set KeyRepeat
+    shell: defaults write -g KeyRepeat -int 1
+
+  - name: set InitialKeyRepeat
+    shell: defaults write -g InitialKeyRepeat -int 10
