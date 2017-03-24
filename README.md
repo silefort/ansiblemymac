@@ -12,25 +12,25 @@ Use Ansible to setup your newly installed mac
 
 	$ brew install ansible
 
-### Install Ansible requirements:
-
-	$ ansible-galaxy install geerlingguy.homebrew
 
 ## Run Ansible:
 
 ### Clone this repo:
 
 	$ https://github.com/silefort/ansiblemymac.git 
+	$ cd ansiblemac
+
+### Install Ansible requirements:
+
+	$ ansible-galaxy install geerlingguy.homebrew
 
 ### Run your playbook:
 
-	$ cd ansiblemymac
 	$ ansible-playbook main.yml -i inventory.ini -K 
 
 ## Remaining Manual Setup:
 
 * Remap Caps Lock to Ctrl
-
 
 
 Ideas fully stolen from:
