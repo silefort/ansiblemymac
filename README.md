@@ -33,7 +33,7 @@ Use Ansible to setup your newly installed mac
 * Remap Caps Lock to Ctrl
 
 
-Ideas fully stolen from:
+Ideas stolen from:
 * https://blog.vandenbrand.org/2016/01/04/how-to-automate-your-mac-os-x-setup-with-ansible/
 * https://github.com/mtneug/cfg_mgmt-macos
 * https://github.com/geerlingguy/macos-virtualbox-vm
