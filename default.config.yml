@@ -1,6 +1,9 @@
 ---
 downloads: ~/.ansible-downloads/
 
+vimrc_github: git@github.com:silefort/vim.git
+bash_github: git@github.com:silefort/bash.git
+
 # dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
 # dotfiles_repo_accept_hostkey: yes
 # dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
@@ -18,6 +21,7 @@ homebrew_installed_packages:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - calibre
   - dropbox
   - google-chrome
   - google-drive
