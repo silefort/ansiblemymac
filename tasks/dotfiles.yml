@@ -1,0 +1,15 @@
+---
+- name: Clone bash
+  git:
+    repo: '{{ bash_github }}'
+    dest: ~/.custom_bash
+
+- name: Clone vimrc
+  git:
+    repo: '{{ vimrc_github }}'
+    dest: ~/.custom_vim
+
+- name: Install vimrc
+  shell: ./install.sh
+  args:
+    chdir: ~/.custom_vim
