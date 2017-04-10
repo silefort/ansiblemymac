@@ -13,3 +13,4 @@
   shell: ./install.sh
   args:
     chdir: ~/.custom_vim
+  ignore_errors: yes
