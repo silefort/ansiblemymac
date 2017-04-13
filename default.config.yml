@@ -18,11 +18,14 @@ bash_github: git@github.com:silefort/bash.git
 homebrew_installed_packages:
   - dockutil
   - git
+  - vim
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - calibre
+  - docker
   - dropbox
+  - firefox
   - google-chrome
   - google-drive
   - iterm2
