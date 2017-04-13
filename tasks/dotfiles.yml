@@ -24,3 +24,8 @@
   args:
     chdir: ~/.custom_vim
   ignore_errors: yes
+
+- name: Clone tmux
+  git:
+    repo: '{{ tmux_github }}'
+    dest: ~/.custom_tmux

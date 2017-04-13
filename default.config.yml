@@ -3,6 +3,7 @@ downloads: ~/.ansible-downloads/
 
 vimrc_github: git@github.com:silefort/vim.git
 bash_github: git@github.com:silefort/bash.git
+tmux_github: git@github.com:silefort/tmux.git
 
 # dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
 # dotfiles_repo_accept_hostkey: yes
@@ -18,6 +19,7 @@ bash_github: git@github.com:silefort/bash.git
 homebrew_installed_packages:
   - dockutil
   - git
+  - tmux
   - vim
 
 homebrew_cask_appdir: /Applications
