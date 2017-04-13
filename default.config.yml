@@ -31,8 +31,7 @@ homebrew_cask_apps:
   - shiftit
   - slack
   - spotify
-  - docker
-  - firefox
+  - the-unarchiver
   - vagrant
   - virtualbox
 
