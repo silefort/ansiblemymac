@@ -4,6 +4,16 @@
     repo: '{{ bash_github }}'
     dest: ~/.custom_bash
 
+- name: Make sure Bash_profile file exists
+  file:
+    path: ~/.bash_profile
+    state: touch
+
+- name: Edit bash_profile
+  lineinfile:
+    dest: '~/.bash_profile'
+    line: 'source $HOME/.custom_bash/main'
+
 - name: Clone vimrc
   git:
     repo: '{{ vimrc_github }}'
