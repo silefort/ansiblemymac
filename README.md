@@ -1,4 +1,4 @@
-# ansiblemymac
+# ansiblemymac, pour déployer mon mac
 
 Use Ansible to setup your newly installed mac
 
