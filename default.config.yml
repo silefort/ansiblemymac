@@ -19,11 +19,15 @@ tmux_github: git@github.com:silefort/tmux.git
 homebrew_installed_packages:
   - dockutil
   - git
+  - heroku
+  - joplin
+  - reattach-to-user-namespace
   - tmux
   - vim
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - brackets
   - calibre
   - docker
   - dropbox

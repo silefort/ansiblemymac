@@ -40,3 +40,7 @@ Ideas stolen from:
 * https://github.com/MWGriffin/ansible-playbooks
 * https://github.com/geerlingguy/mac-dev-playbook
 
+TODO:
+* Automatic dotfiles (bash, vimrc, tmux...)
+* different roles depending on pro or personnal computer
+* CI
