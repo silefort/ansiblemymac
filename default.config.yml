@@ -18,6 +18,7 @@ tmux_github: git@github.com:silefort/tmux.git
 
 homebrew_installed_packages:
   - dockutil
+  - exa
   - git
   - heroku
   - joplin
