@@ -22,7 +22,9 @@ homebrew_installed_packages:
   - git
   - heroku
   - joplin
+  - legit
   - reattach-to-user-namespace
+  - ranger
   - tmux
   - vim
 
