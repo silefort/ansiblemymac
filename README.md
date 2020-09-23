@@ -70,3 +70,4 @@ TODO:
 * Automatic dotfiles (bash, vimrc, tmux...)
 * different roles depending on pro or personnal computer
 * CI
+* Map Caps Lock to Ctrl from the command line ( no manual action )
