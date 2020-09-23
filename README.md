@@ -4,6 +4,32 @@ Use Ansible to setup your newly installed mac
 
 ## Preset:
 
+### Create a ssh private/public key
+
+	$ ssh-keygen -t rsa -b 4096 -C "my@email.com"
+	$ eval "$(ssh-agent -s)"
+
+### Edit your ssh config file
+
+	$ vim ~/.ssh/config
+	
+	Host *
+  	  AddKeysToAgent yes
+  	  UseKeychain yes
+  	  IdentityFile ~/.ssh/id_rsa
+	  
+### Add your SSH private key to the ssh-agent and store your passphrase in the keychain
+
+	$ ssh-add -K ~/.ssh/id_rsa
+	
+### Add ssh public key to your github account
+
+	$ cat ~/.ssh/id_rsa.pub | pbcopy
+	
+and Follow: https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
+	
+## Preset:
+
 ### Install Homebrew:
 
 	$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"	
