@@ -18,32 +18,34 @@ tmux_github: git@github.com:silefort/tmux.git
 
 homebrew_installed_packages:
   - dockutil
-  - exa
   - git
-  - heroku
-  - joplin
-  - legit
   - reattach-to-user-namespace
-  - ranger
   - tmux
   - vim
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - brackets
+  - google-backup-and-sync
   - calibre
-  - docker
+  - cryptomator
+  - brave-browser
+#   - docker
   - dropbox
+  - evernote
   - firefox
   - google-chrome
-  - google-drive
+#   - google-drive
   - iterm2
-  - lastfm
   - keepassx
+#   - lastfm
+  - nextcloud
   - shiftit
-  - slack
+  - private-internet-access
+#   - slack
+  - skim
   - spotify
-  - spotmenu
+  - standard-notes
+#   - spotmenu
   - the-unarchiver
   - vagrant
   - virtualbox
@@ -61,18 +63,14 @@ dockitems_to_remove:
   - iBooks
 
 dockitems_to_persist:
-  - name: KeePassX
-    path: "/Applications/KeePassX.app"
-    pos: 1
-
-  - name: Microsoft Outlook
-    path: "/Applications/Microsoft Outlook.app"
-    pos: 2
+#   - name: KeePassX
+#     path: "/Applications/KeePassX.app"
+#     pos: 1
+# 
+#   - name: Microsoft Outlook
+#     path: "/Applications/Microsoft Outlook.app"
+#     pos: 2
 
   - name: Safari
     path: "/Applications/Safari.app"
     pos: 3
-
-  - name: Slack
-    path: "/Applications/Slack.app"
-    pos: 4

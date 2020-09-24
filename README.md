@@ -43,9 +43,9 @@ and Follow: https://docs.github.com/en/github/authenticating-to-github/adding-a-
 
 ### Clone this repo:
 
-	$ mkdir Git
-	$ https://github.com/silefort/ansiblemymac.git  Git/ansiblemymac
-	$ cd ansiblemac
+	$ mkdir ~/Git
+	$ git clone git@github.com:silefort/ansiblemymac.git ~/Git/ansiblemymac
+	$ cd ~/Git/ansiblemac
 
 ### Install Ansible requirements:
 
