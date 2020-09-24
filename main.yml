@@ -13,12 +13,11 @@
   roles:
     - geerlingguy.homebrew
 
-#   tasks:
-#     - include: tasks/ansible-setup.yml
-# 
-#     - include: tasks/osx.yml
-# 
-#     - include: tasks/dockutil.yml
-# 
-#     - include: tasks/dotfiles.yml
-# 
+  tasks:
+    - include: tasks/ansible-setup.yml
+
+    - include: tasks/osx.yml
+
+    - include: tasks/dockutil.yml
+
+    - include: tasks/dotfiles.yml

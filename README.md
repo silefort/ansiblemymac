@@ -57,8 +57,12 @@ and Follow: https://docs.github.com/en/github/authenticating-to-github/adding-a-
 
 ## Remaining Manual Setup:
 
-* Remap Caps Lock to Ctrl
-
+* Remap Caps Lock to Ctrl ( Clavier / Touches de Modification )
+* Put the Dock on the left ( Dock )
+* Make the Dock disappear automatically ( Dock )
+* Change the color preset of iTerm ( Preferences / Profiles / Colors )
+* Change the font of iTerm ( Menlo / Bold )
+* Change Mouse Setup ( Sens du défilement naturel )
 
 Ideas stolen from:
 * https://blog.vandenbrand.org/2016/01/04/how-to-automate-your-mac-os-x-setup-with-ansible/

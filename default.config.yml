@@ -18,10 +18,16 @@ tmux_github: git@github.com:silefort/tmux.git
 
 homebrew_installed_packages:
   - dockutil
+  - fzf
   - git
+  - git-extras
+  - jq
+  - jrnl
   - reattach-to-user-namespace
   - tmux
+  - tree
   - vim
+  - z
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -54,23 +60,32 @@ dockitems_to_remove:
   - Mail
   - Contacts
   - Calendrier
+  - Mission Control
   - Notes
   - Rappels
   - Plans
   - Photos
+  - Photo Booth
+  - Podcasts
+  - Livres
   - Messages
   - FaceTime
   - iBooks
+  - TV
 
 dockitems_to_persist:
-#   - name: KeePassX
-#     path: "/Applications/KeePassX.app"
-#     pos: 1
-# 
-#   - name: Microsoft Outlook
-#     path: "/Applications/Microsoft Outlook.app"
-#     pos: 2
+  - name: KeePassX
+    path: "/Applications/KeePassX.app"
+    pos: 1
 
-  - name: Safari
-    path: "/Applications/Safari.app"
+  - name: Firefox
+    path: "/Applications/Firefox.app"
+    pos: 2
+
+  - name: iTerm
+    path: "/Applications/iTerm.app"
     pos: 3
+
+  - name: Spotify
+    path: "/Applications/Spotify.app"
+    pos: 4
