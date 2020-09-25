@@ -10,3 +10,11 @@
 
   - name: set InitialKeyRepeat
     shell: defaults write -g InitialKeyRepeat -int 10
+
+# Symlink python Crypto to crypto
+
+  - name: Create symbolic link between python Crypto and crypto
+    file:
+      src: /usr/local/lib/python3.8/site-packages/Crypto
+      dest: /usr/local/lib/python3.8/site-packages/crypto
+      state: link
