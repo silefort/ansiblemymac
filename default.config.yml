@@ -17,6 +17,7 @@ tmux_github: git@github.com:silefort/tmux.git
 #   - .vimrc
 
 homebrew_installed_packages:
+  - colordiff
   - dockutil
   - fzf
   - git
