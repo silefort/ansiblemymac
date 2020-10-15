@@ -25,6 +25,7 @@ homebrew_installed_packages:
   - jq
   - jrnl
   - pyenv
+  - pyenv-virtualenvwrapper
   - reattach-to-user-namespace
   - tmux
   - tree
