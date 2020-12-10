@@ -27,6 +27,7 @@ homebrew_installed_packages:
   - pyenv
   - pyenv-virtualenvwrapper
   - reattach-to-user-namespace
+  - ripgrep
   - tmux
   - tree
   - vim
