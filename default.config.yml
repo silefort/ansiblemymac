@@ -22,6 +22,7 @@ homebrew_installed_packages:
   - fzf
   - git
   - git-extras
+  - gping
   - jq
   - jrnl
   - pyenv
